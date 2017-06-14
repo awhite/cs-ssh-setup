@@ -16,23 +16,23 @@ ssh-keygen
 ```bash
 /Users/username/.ssh/cs_key
 ```
-4. Press `Enter` at the remaining prompts.
 
 #### If you're on Linux / Bash on Ubuntu on Windows
 3. At the prompt, enter the text below, substituting your Mac username in for `username`:
 ```bash
 /home/username/.ssh/cs_key
 ```
-4. Press `Enter` at the remaining prompts.
 
 #### If you're using Git Bash
 3. At the prompt, enter the text below, substituting your Mac username in for `username`:
 ```bash
 /c/Users/username/.ssh/cs_key
 ```
-4. Press `Enter` at the remaining prompts.
 
 ---
+
+4. Press `Enter` at the remaining prompts.
+
 ### Set up SSH configuration file
 1. Create or edit the SSH configuration file at `~/.ssh/config`. Add an entry containing the following:
 ```bash
