@@ -66,7 +66,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWSwzGvsYHCAZ2g6xccbGBdNb6wBbghd7kspx6eTPt
 ```
   * The content may be split over 2 lines by default. A good way to check that it is on one line is with `wc`, or by displaying line numbers in `vi` by typing `:set number` while in Normal mode.
 6. Save the file.
-7. If you just created the `authorized_keys` file, edit the permissions with the following:
+7. If you just created the `authorized_keys` file, fix the permissions with the following:
 ```bash
 chmod 600 ~/.ssh/authorized_keys
 ```
