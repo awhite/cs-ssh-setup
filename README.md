@@ -11,21 +11,21 @@ We also create an SSH configuration, which: 1. specifies that our private key sh
 ```bash
 ssh-keygen
 ```
-##### If you're on Mac
+#### If you're on Mac
 3. At the prompt, enter the text below, substituting your Mac username in for `username`:
 ```bash
 /Users/username/.ssh/cs_key
 ```
 4. Press `Enter` at the remaining prompts.
 
-##### If you're on Linux / Bash on Ubuntu on Windows
+#### If you're on Linux / Bash on Ubuntu on Windows
 3. At the prompt, enter the text below, substituting your Mac username in for `username`:
 ```bash
 /home/username/.ssh/cs_key
 ```
 4. Press `Enter` at the remaining prompts.
 
-##### If you're using Git Bash
+#### If you're using Git Bash
 3. At the prompt, enter the text below, substituting your Mac username in for `username`:
 ```bash
 /c/Users/username/.ssh/cs_key
@@ -62,13 +62,7 @@ ssh cs
     * You will need to create the `.ssh` directory if it does not exist.
 5. Paste the content from your clipboard **on its own single line** in the file. If the file is not empty, add a line at the end of the file. It should look something like this:
 ```
-ssh-rsa
-AAAAB3NzaC1yc2EAAAADAQABAAABAQDWSwzGvsYHCAZ2g6xccbGBdNb6wBbghd7kspx6
-eTPt4RSlLPEewBg3qogyj3I+DSa2M+Mql8xG4A6TLj7mOeIrS6BDcX5NEi3mStN5Bt+j
-j1SqRJYceD93a7RjPaaaaakjakdshfklhasldkhflkasdjhfaksjldhfhXjIm7RIFjiv
-q56TpK8HXd/YXD29IY4o4MPr6rXJcMKws5fnl3kywYRwv7Hg9mPKdHnKm9En2PXtq7BX
-VlNz+lQt1cQ9GpKHiPt69GlzervXGSFt54eaddTrEbzzesoZ4OtDbnwWEh3Pp95FvZFd
-ejLbIakpUTJnPCWU7EAGCV4Me1thDZQ5 alex@Alexs-MacBook-Pro.local
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWSwzGvsYHCAZ2g6xccbGBdNb6wBbghd7kspx6eTPt4RSlLPEewBg3qogyj3I+DSa2M+Mql8xG4A6TLj7mOeIrS6BDcX5NEi3mStN5Bt+jj1SqRJYceD93a7RjPaaaaakjakdshfklhasldkhflkasdjhfaksjldhfhXjIm7RIFjivq56TpK8HXd/YXD29IY4o4MPr6rXJcMKws5fnl3kywYRwv7Hg9mPKdHnKm9En2PXtq7BXVlNz+lQt1cQ9GpKHiPt69GlzervXGSFt54eaddTrEbzzesoZ4OtDbnwWEh3Pp95FvZFdejLbIakpUTJnPCWU7EAGCV4Me1thDZQ5 alex@Alexs-MacBook-Pro.local
 ```
   * The content may be split over 2 lines by default. A good way to check that it is on one line is with `wc`, or by displaying line numbers in `vi` by typing `:set number` while in Normal mode.
 6. Save the file.
